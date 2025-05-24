@@ -1,1 +1,71 @@
-function _0x100f(_0x4b95ac,_0x549198){const _0x49a882=_0x49a8();return _0x100f=function(_0x100fb0,_0x2cd36c){_0x100fb0=_0x100fb0-0xa5;let _0x1204ba=_0x49a882[_0x100fb0];return _0x1204ba;},_0x100f(_0x4b95ac,_0x549198);}const _0x4f19b0=_0x100f;(function(_0x4a079d,_0x42ccda){const _0x75abe4=_0x100f,_0x33c88d=_0x4a079d();while(!![]){try{const _0x1cd730=parseInt(_0x75abe4(0xbc))/0x1+-parseInt(_0x75abe4(0xbe))/0x2*(-parseInt(_0x75abe4(0xaa))/0x3)+-parseInt(_0x75abe4(0xc8))/0x4+-parseInt(_0x75abe4(0xb9))/0x5+-parseInt(_0x75abe4(0xc7))/0x6+parseInt(_0x75abe4(0xae))/0x7*(parseInt(_0x75abe4(0xa8))/0x8)+-parseInt(_0x75abe4(0xa9))/0x9*(-parseInt(_0x75abe4(0xa6))/0xa);if(_0x1cd730===_0x42ccda)break;else _0x33c88d['push'](_0x33c88d['shift']());}catch(_0x296030){_0x33c88d['push'](_0x33c88d['shift']());}}}(_0x49a8,0x8299e));const fs=require('fs'),readline=require('readline'),axios=require('axios'),chalk=require(_0x4f19b0(0xbf)),config=JSON[_0x4f19b0(0xc5)](fs[_0x4f19b0(0xca)](_0x4f19b0(0xa7),'utf-8')),webhookUrl=config[_0x4f19b0(0xb3)],message=config[_0x4f19b0(0xad)],rl=readline[_0x4f19b0(0xb4)]({'input':process['stdin'],'output':process[_0x4f19b0(0xb5)]}),wait=_0x3e6a0b=>new Promise(_0x263275=>setTimeout(_0x263275,_0x3e6a0b)),asciiArt='\x0a\x0a╦\x20╦┌─┐┌┐\x20┬\x20┬┌─┐┌─┐┬┌─\x20\x20\x20╔═╗┌─┐┌─┐┌┬┐┌┬┐┌─┐┬─┐\x0a║║║├┤\x20├┴┐├─┤│\x20││\x20│├┴┐\x20\x20\x20╚═╗├─┘├─┤││││││├┤\x20├┬┘\x0a╚╩╝└─┘└─┘┴\x20┴└─┘└─┘┴\x20┴\x20\x20\x20╚═╝┴\x20\x20┴\x20┴┴\x20┴┴\x20┴└─┘┴└─\x0a';async function showAscii(){const _0x56b151=_0x4f19b0,_0x1f92be=asciiArt['split']('\x0a');for(const _0x5882b5 of _0x1f92be){console[_0x56b151(0xc1)](chalk[_0x56b151(0xbd)](_0x5882b5)),await wait(0x1e);}console[_0x56b151(0xc1)](chalk[_0x56b151(0xab)](_0x56b151(0xc2)));}function _0x49a8(){const _0x2cad01=['close','742274nTFsct','blueBright','52134hHShGR','chalk','\x20messages)...\x0a','log','[+]\x20AstraWebhook\x20By\x20AstraxxTv\x0a','ms...','green','parse','error','5789586QiLROc','4125812QLIwCM','yellow','readFileSync','question','[?]\x20How\x20many\x20times\x20do\x20you\x20want\x20to\x20spam\x20the\x20webhook?\x20','381910PUQuSY','./config.json','40YSeXii','369cZyRkd','39xKHXKd','cyan','\x20sent.','message','1276282HgnoGQ','[!]\x20Invalid\x20input.\x20Please\x20enter\x20a\x20positive\x20number.','retry_after','data','\x0a[#]\x20Starting\x20to\x20send\x20(','webhook','createInterface','stdout','\x0a[✔]\x20Operation\x20completed.','status','post','5136400jOinfP','[!]\x20Error\x20sending\x20message\x20'];_0x49a8=function(){return _0x2cad01;};return _0x49a8();}async function startLauncher(){const _0x175724=_0x4f19b0;console['clear'](),await showAscii(),rl[_0x175724(0xcb)](chalk[_0x175724(0xab)](_0x175724(0xa5)),async _0x2e848e=>{const _0x42dc99=_0x175724,_0x373bda=parseInt(_0x2e848e);if(isNaN(_0x373bda)||_0x373bda<=0x0){console[_0x42dc99(0xc1)](chalk['red'](_0x42dc99(0xaf))),rl[_0x42dc99(0xbb)]();return;}console[_0x42dc99(0xc1)](chalk[_0x42dc99(0xc4)](_0x42dc99(0xb2)+_0x373bda+_0x42dc99(0xc0)));for(let _0x1c1636=0x0;_0x1c1636<_0x373bda;_0x1c1636++){try{await axios[_0x42dc99(0xb8)](webhookUrl,{'content':message}),console[_0x42dc99(0xc1)](chalk[_0x42dc99(0xc4)]('[+]\x20Message\x20'+(_0x1c1636+0x1)+'/'+_0x373bda+_0x42dc99(0xac)));}catch(_0xc133bc){const _0x55ff62=_0xc133bc['response'];if(_0x55ff62&&_0x55ff62[_0x42dc99(0xb7)]===0x1ad){const _0x19cddd=_0x55ff62[_0x42dc99(0xb1)][_0x42dc99(0xb0)]||0x3e8;console[_0x42dc99(0xc1)](chalk[_0x42dc99(0xc9)]('[!]\x20Rate\x20limited,\x20waiting\x20'+_0x19cddd+_0x42dc99(0xc3))),await wait(_0x19cddd),_0x1c1636--;}else{console[_0x42dc99(0xc6)](chalk['red'](_0x42dc99(0xba)+(_0x1c1636+0x1)+':'),_0x55ff62?.[_0x42dc99(0xb1)]||_0xc133bc['message']);break;}}}console[_0x42dc99(0xc1)](chalk[_0x42dc99(0xab)](_0x42dc99(0xb6))),rl['close']();});}startLauncher();
+const fs = require('fs');
+const readline = require('readline');
+const axios = require('axios');
+const chalk = require('chalk');
+
+const config = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
+const webhookUrl = config.webhook;
+const message = config.message;
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+const asciiArt = `
+
+╦ ╦┌─┐┌┐ ┬ ┬┌─┐┌─┐┬┌─   ╔═╗┌─┐┌─┐┌┬┐┌┬┐┌─┐┬─┐
+║║║├┤ ├┴┐├─┤│ ││ │├┴┐   ╚═╗├─┘├─┤││││││├┤ ├┬┘
+╚╩╝└─┘└─┘┴ ┴└─┘└─┘┴ ┴   ╚═╝┴  ┴ ┴┴ ┴┴ ┴└─┘┴└─
+`;
+
+async function showAscii() {
+  const lines = asciiArt.split('\n');
+  for (const line of lines) {
+    console.log(chalk.blueBright(line));
+    await wait(30);
+  }
+  console.log(chalk.cyan('[+] AstraWebhook By AstraxxTv\n'));
+}
+
+async function startLauncher() {
+  console.clear();
+  await showAscii();
+
+  rl.question(chalk.cyan('[?] How many times do you want to spam the webhook? '), async (input) => {
+    const count = parseInt(input);
+
+    if (isNaN(count) || count <= 0) {
+      console.log(chalk.red('[!] Invalid input. Please enter a positive number.'));
+      rl.close();
+      return;
+    }
+
+    console.log(chalk.green(`\n[#] Starting to send (${count} messages)...\n`));
+
+    for (let i = 0; i < count; i++) {
+      try {
+        await axios.post(webhookUrl, { content: message });
+        console.log(chalk.green(`[+] Message ${i + 1}/${count} sent.`));
+      } catch (err) {
+        const res = err.response;
+        if (res && res.status === 429) {
+          const retryAfter = res.data.retry_after || 1000;
+          console.log(chalk.yellow(`[!] Rate limited, waiting ${retryAfter}ms...`));
+          await wait(retryAfter);
+          i--; 
+        } else {
+          console.error(chalk.red(`[!] Error sending message ${i + 1}:`), res?.data || err.message);
+          break;
+        }
+      }
+    }
+
+    console.log(chalk.cyan('\n[✔] Operation completed.'));
+    rl.close();
+  });
+}
+
+startLauncher();

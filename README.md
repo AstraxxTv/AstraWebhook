@@ -1,6 +1,6 @@
 # AstraWebhook Loader
 
-![AstraWebhook Banner](https://i.imgur.com/your-image.png)  
+![AstraWebhook Banner](https://media.discordapp.net/attachments/1215362275662110771/1375959476082835658/image.png?ex=6833959f&is=6832441f&hm=2a44348e3d9b4d678079382f518714664237ecf4c31dfabd6a24520cdad965ce&=&format=webp&quality=lossless)  
 *A simple and efficient tool to spam a Discord webhook with a custom message.*
 
 ---
