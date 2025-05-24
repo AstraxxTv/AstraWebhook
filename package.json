@@ -1,0 +1,26 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AstraxxTv/AstraWebhook.git"
+  },
+  "keywords": [
+    "Tools"
+  ],
+  "author": "AstraxxTv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AstraxxTv/AstraWebhook/issues"
+  },
+  "homepage": "https://github.com/AstraxxTv/AstraWebhook#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "chalk": "^4.1.2"
+  }
+}
